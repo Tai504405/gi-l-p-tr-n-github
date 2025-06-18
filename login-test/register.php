@@ -9,7 +9,7 @@ $confirm  = $_POST['confirm'] ?? '';
 
 // Kiểm tra dữ liệu
 if ($username === '' || $password === '' || $confirm === '') {
-    echo "Vui lòng điền đầy đủ thông tin.";
+    echo "Vui lòng điền đầy đủ thông tin nha.";
     exit;
 }
 
