@@ -49,6 +49,6 @@ $users[] = [
 file_put_contents($usersFile, json_encode($users, JSON_PRETTY_PRINT));
 
 // Chuyển hướng về login
-header("Location: /index.html");
+header("Location: /index.php");
 exit;
 ?>
