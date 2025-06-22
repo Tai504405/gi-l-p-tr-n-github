@@ -86,6 +86,7 @@ if (isset($_SESSION['username']) || isset($_COOKIE['remember'])) {
       </div>
 
       <button type="submit">Đăng nhập</button>
+       <button type="submit">đăng ký</button>
     </form>
 
     <div class="links">

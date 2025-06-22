@@ -9,7 +9,7 @@ $confirm  = $_POST['confirm'] ?? '';
 
 // Kiểm tra dữ liệu
 if ($username === '' || $password === '' || $confirm === '') {
-    echo "Vui lòng điền đầy đủ thông tin.";
+    echo "Vui lòng điền đầy đủ thông tin nha.";
     exit;
 }
 
@@ -49,6 +49,6 @@ $users[] = [
 file_put_contents($usersFile, json_encode($users, JSON_PRETTY_PRINT));
 
 // Chuyển hướng về login
-header("Location: /index.html");
+header("Location: /index.php");
 exit;
 ?>

@@ -36,5 +36,5 @@ if (!$found) {
 // Giả lập gửi thông báo khôi phục mật khẩu
 echo "Yêu cầu khôi phục mật khẩu đã được gửi đến email (giả lập).";
 // Hoặc chuyển hướng về trang login sau vài giây
-// header("refresh:3;url=/index.html");
+// header("refresh:3;url=/index.php");
 ?>
