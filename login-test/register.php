@@ -52,3 +52,4 @@ file_put_contents($usersFile, json_encode($users, JSON_PRETTY_PRINT));
 header("Location: /index.php");
 exit;
 ?>
+    
